@@ -1,4 +1,4 @@
-배포링크 : https://jiyj725.github.io/
+배포링크 : https://jiyj725.github.io/crud-react-ts
 <br>
 ❗️jsonServer 3001번이 켜져 있어야 정상적으로 동작합니다.
 
