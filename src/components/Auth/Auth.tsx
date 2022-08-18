@@ -39,12 +39,13 @@ export default Auth;
 const StyledAuth = styled.main`
   margin: 2rem auto;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
-  width: 25rem;
   border-radius: 8px;
   border: 1px solid ${({theme}) => theme.mode.border};
   padding: 1rem;
   text-align: center;
   background-color: ${({theme}) => theme.mode.background};
+  width: 90%;
+  max-width: 40rem;
 
   & .control {
     margin-bottom: 0.5rem;
@@ -59,7 +60,7 @@ const StyledAuth = styled.main`
 
   & .control input {
     display: block;
-    width: 20rem;
+    width: 80%;
     margin: auto;
     border-radius: 4px;
     padding: 0.25rem;

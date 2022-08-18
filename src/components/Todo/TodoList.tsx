@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Button from "../../style/Button";
 import {Text} from "../../style/Text";
 import {Todo} from "../../model/todo.model";
-import Loading from "../Loading";
 import {useDispatch, useSelector} from "react-redux";
 import {ReducerType} from "../../store";
 import {todoActions} from "../../store/todo";
@@ -13,7 +12,6 @@ interface TodoListProps {
   items: Todo[];
   onDeleteTodo: (id: string) => void;
   onUpdateTodo: (id: string, text: string) => void;
-  isPending: boolean;
 }
 
 const TodoList = (props: TodoListProps) => {
@@ -28,7 +26,6 @@ const TodoList = (props: TodoListProps) => {
 
   return (
     <StyledUl>
-      {props.isPending && <Loading/>}
       {props.items && (props.items.map(todo =>
         <li key={todo.id}>
           <div>

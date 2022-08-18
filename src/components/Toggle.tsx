@@ -43,6 +43,13 @@ const Wrapper = styled.button<IWrapper>`
   top: 2rem;
   right: 2rem;
 
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background-color: red;
+    }
+  }
+
   svg {
     color: ${({theme}) => theme.mode.themeIcon};
 

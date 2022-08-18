@@ -10,7 +10,7 @@ import {useNavigate} from "react-router-dom";
 import {todoActions} from "../store/todo";
 
 const TodoPage = () => {
-  const {error, isPending, data: todos} = useFetch('http://localhost:3001/todo');
+  const {error, data: todos} = useFetch('http://localhost:3001/todo');
   // const [todos, setTodos] = useState<Todo[]>([]);
   const isAuth = useSelector((state: ReducerType) => state.auth.isAuthenticated);
   const dispatch = useDispatch();
@@ -66,7 +66,7 @@ const TodoPage = () => {
       {isAuth && <UserProfile/>}
       {isAuth && <NewTodo onAddTodo={todoAddHandler}/>}
       {isAuth && <TodoList items={todos} onDeleteTodo={todoDeleteHandler} onUpdateTodo={todoUpdateHandler}
-                           isPending={isPending}/>}
+      />}
     </>
   )
 }

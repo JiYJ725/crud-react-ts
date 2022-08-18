@@ -145,12 +145,7 @@ const StyledHeader = styled.header`
   .menu:active {
     color: rgb(198, 198, 203);
   }
-
-  Button:hover,
-  Button:active {
-    background-color: rgb(198, 198, 203);
-  }
-
+  
   .hamburger-menu {
     display: none;
 

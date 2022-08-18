@@ -1,62 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ee76715-e144-4e3b-a377-d2b40a2ae06a" name="변경" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/crud-react-ts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/Logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DummyData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Nope.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Auth/Auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Auth/UserProfile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Todo/NewTodo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Todo/TodoList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Toggle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useDarkMode.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useFetch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/todo.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/counter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/todo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/GlobalStyled.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/Text.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/background.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/styled.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/util.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/CounterPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/TodoPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8ee76715-e144-4e3b-a377-d2b40a2ae06a" name="변경" comment="readme 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Auth/Auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Auth/Auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todo/TodoList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useFetch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useFetch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/TodoPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TodoPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,7 +45,7 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;power.mode.ii&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/jiyeongjun/Desktop/Projects/crud-react-ts/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -119,8 +81,26 @@
       <workItem from="1660736292652" duration="59000" />
       <workItem from="1660736368375" duration="115000" />
       <workItem from="1660736493335" duration="68000" />
-      <workItem from="1660736573395" duration="338000" />
+      <workItem from="1660736573395" duration="941000" />
+      <workItem from="1660737519406" duration="32000" />
+      <workItem from="1660742560465" duration="4701000" />
+      <workItem from="1660805479816" duration="602000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1660736974304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660736974304</updated>
+    </task>
+    <task id="LOCAL-00002" summary="readme 수정">
+      <created>1660737086446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660737086446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="readme 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme 수정" />
   </component>
 </project>
